@@ -11,7 +11,7 @@
         <p class="title_list">Memory Game</p>
         <div class="buttonsParty">
             <div><span class="btn">Tours : <span >{{tour}}</span> </span></div>
-            <div><span class="btn">Temps total : <span >{{min}} : {{sec}}</span></span></div>
+            <div><span class="btn">Temps total : <span >{{min}} : {{ sec}}</span></span></div>
             <div><button class="btn btn_reset" @click="reset" :class="finish ? 'badge_light' : ''" :disabled="!start">Recommencer</button></div>
         </div>
         <div class="plateau" >
